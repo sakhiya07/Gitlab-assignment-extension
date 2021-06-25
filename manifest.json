@@ -1,0 +1,14 @@
+{
+  "manifest_version" : 3,
+  "name" : "gitlab",
+  "description": "Console message when clicked on approve button",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/pr-1.html"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
